@@ -1,0 +1,13 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6 col-md-4 col-lg-3 mb-3" *ngFor="let champion of Champions">
+      <div class="card">
+        <img class="card-img-top" src="{{champion.image}}" alt="{{champion.name}}">
+        <div class="card-body">
+          <h5 class="card-title">{{champion.name}}</h5>
+          <p class="card-text">{{champion.description}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
